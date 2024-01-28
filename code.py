@@ -11,5 +11,5 @@ link = "https://www.google.com/search?sca_esv=602071010&rlz=1C1CHBF_enUS1057US10
 
 qr.add_data(link)
 qr.make(fit =True)
-img = qr.make_image(fill = 'green', back_color = "white")
-img.save("code1.png")
+img = qr.make_image(fill = 'black', back_color = "white")
+img.save("code.png")
